@@ -1,0 +1,15 @@
+INDEX VERSION 1.127
+F:\ServletProgram\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2282827924.index
+\Billing\src
+F:\ServletProgram\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1652998201.index
+\JdbcApp\src
+F:\ServletProgram\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3678351590.index
+\Billing\src
+F:\ServletProgram\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2736262342.index
+\StrutsJdbc\src
+F:\ServletProgram\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\385658350.index
+\StrutJdbc\src
+F:\ServletProgram\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4204054337.index
+\I18NTest\src
+F:\ServletProgram\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\623772798.index
+\MyServ\src

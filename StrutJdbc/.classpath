@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.4"/>
+	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/10.2.0/server/jdbc/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/freemarker-2.3.8.jar.zip"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/jsp-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/ognl-2.6.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/org.apache.commons.collections.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/servlet-api.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/struts2-core-2.0.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/cnu/Desktop/strut jars/xwork-2.0.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

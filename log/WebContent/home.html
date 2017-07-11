@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script>
+function myblank(f)
+{
+n=f.T1.value
+a=f.S1.value
+p=f.T2.value
+ei=f.T3.value
+bd=f.T4.value
+bp=f.T5.value
+ac=f.D1.value
+var i=ei.indexOf("@");
+var u=ei.indexOf(".");
+
+if((n.length==0)||(a.length==0)||(p.length==0)||((i==-1)||(u==-1))||(bd.length==0)||(bp.length==0)||(ac.length==0))
+{
+alert("no field should be left blank");
+if(n.length==0)
+{
+document.getElementById("nn").innerText="This field should n't left blank"
+}
+if(a.length==0)
+{
+document.getElementById("ad").innerText="This field should n't left blank"
+}
+if(p.length==0)
+{
+document.getElementById("ph").innerText="This field should n't left blank"
+}
+if((i==-1)||(u==-1))
+{
+document.getElementById("em").innerHTML="<u><i><b><font color=red>Invalid emailid</font></b></i></u>"
+
+}
+if(bd.length==0)
+{
+document.getElementById("db").innerText="This field should n't left blank"
+}
+if(bp.length==0)
+{
+document.getElementById("dop").innerText="This field should n't left blank"
+}
+if(ac.length=="Select")
+{
+document.getElementById("at").innerText="select any one"
+}
+return false;
+}
+}
+</script>
+  </head>
+  
+  <body>
+<form method="GET" action="Account" onsubmit="return myblank(this)"  name="f">
+				<div align="center">
+				<table>
+						<tr>
+							<td width="27%">name</td>
+							
+							<td width="41%"><input type="text" name="T1" size="20" ></td>
+							<td width="29%"><font color=#FF0000><label id="nn"></label></font></td>
+						</tr>
+						<tr>
+							<td width="27%">address</td>
+						
+						<td width="41%"><textarea rows="2" name="S1" cols="16"></textarea></td>
+						<td width="29%"><font color=#FF0000><label id="ad"></label></font></td>
+						</tr>
+						<tr>
+							<td width="27%">phone no</td>
+							
+							<td width="41%">
+							<input type="text" name="T2" size="20" ></td>
+							<td width="29%">
+							<font color=#FF0000><label id="ph"></label></font></td>
+						</tr>
+						<tr>
+							<td width="27%">Emailid</td>
+							
+							<td width="41%">
+							<input type="text" name="T3" size="20" ></td>
+							<td width="29%"><font color=#FF0000><label id="em"></label></font></td>
+						</tr>
+						<tr>
+							<td width="27%">DOB</td>
+							
+							<td width="41%">
+							<input type="text" name="T4" size="20" ></td>
+							<td width="29%"><font color=#FF0000><label id="db"></label></font></td>
+						</tr>
+						<tr>
+							<td width="27%">DOP</td>
+							
+							<td width="41%">
+							<input type="text" name="T5" size="20" ></td>
+							<td width="29%"><font color=#FF0000><label id="dop"></label></font></td>
+						</tr>
+						<tr>
+							<td width="27%">A/C Type</td>
+							
+							<td width="41%">
+							<select size="1" name="D1">
+							<option selected value="select">Select</option>
+							<option value="Current">Current</option>
+							<option value="Savings">Savings</option>
+							</select></td>
+							<td width="29%"><font color=#FF0000><label id="at"></label></font></td>
+						</tr>
+						<tr>
+							<td colspan="3" align=center>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							</td>
+						</tr>
+						<tr>
+							<td colspan="3" align=center>
+							<input type="submit" value="register" name="B1"><input type="reset" value="reset" name="B2"></td>
+						</tr>
+					</table>
+				</div>
+</form>
+
+</body>
+</html>
